@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle haloo",
+        "command": "haloo:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "haloo",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "haloo:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
